@@ -11,3 +11,7 @@ test('capitalize only first letter of the word', ()=>{
 test('return empty string if passed an empty string', ()=>{
     expect(capWord('')).toBe('')
 })
+
+test('capitalize only first letter and make rest lowercase', ()=>{
+    expect(capWord('APplE')).toBe('Apple')
+})
